@@ -1,0 +1,21 @@
+# Multi-Threaded Inventory & Trading System
+
+#Overview
+A C++ console application that simulates a thread-safe inventory and trading system.  
+It demonstrates **STL containers/algorithms**, **object-oriented design**, and **multi-threaded concurrency** with proper synchronization.
+
+# Features
+- Product management with `map` and `vector`
+- Multi-threaded order processing with `std::thread` and `std::mutex`
+- Smart pointer memory safety (`shared_ptr`, `unique_ptr`)
+- Menu-driven CLI interface showing thread IDs, order outcomes, and updated stock levels
+
+##Technologies
+- Language: **C++**
+- IDE: **Code::Blocks**
+- Libraries: **STL (map, vector, algorithms)**, **threading**
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/COMP315-InventorySystem.git
